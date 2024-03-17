@@ -10,55 +10,109 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjord+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css.css" />
   </head>
-  <body class="container">
-    <header class="sticky-top">
-      <nav class="navbar navbar-expand-lg bg-primary py-3 d-flex justify-content-between">
-        <p>logo</p>
-        <div class="">
-          <a class="text-decoration-none text-dark" href="">Sobre</a>
-          <a class="text-decoration-none text-dark" href="">Conhecimentos</a>
-          <a class="text-decoration-none text-dark" href="">Projetos</a>
-          <a class="text-decoration-none text-dark" href="">Contato</a>
+  <body class="container bg-light">
+    <header class="sticky-top bg-light">
+      <nav class="navbar navbar-expand-lg py-3 d-flex justify-content-between">
+        <a href="#" class="text-decoration-none text-dark">
+          <i class="fa-regular fa-file-code fa-xl"></i>
+        </a>
+        <div>
+          <a class="fw-bold text-decoration-none text-dark menu-link" href=""
+            >Sobre</a
+          >
+          <a class="fw-bold text-decoration-none text-dark menu-link" href=""
+            >Conhecimentos</a
+          >
+          <a class="fw-bold text-decoration-none text-dark menu-link" href=""
+            >Projetos</a
+          >
+          <a class="fw-bold text-decoration-none text-dark menu-link" href=""
+            >Contato</a
+          >
         </div>
-        <p>curriculo</p>
+        <button class="btn btn-link text-dark">
+          <i class="fa-solid fa-download fa-xl"></i>
+        </button>
       </nav>
     </header>
     <main class="">
       <div id="about" class="pt-5">
-        <!-- <h2 class="text-center">Sobre mim</h2> -->
-        <div class="d-flex justify-content-between">
-          <div class="fs-3">
+        <div class="d-flex justify-content-between align-items-center row">
+          <div class="fs-3 col-6">
             <div class="d-flex gap-1">
-              <p class="">Olá, eu sou <p class="fw-bold"> Vitor Santos</p></p>
+              <p>Olá, eu sou</p>
+              <p class="fw-bold">Vitor Santos</p>
             </div>
-            <div class="d-flex gap-1">
-              <p>Desenvolvedor <p class="fw-bold"> Backend</p></p>
+            <div class="d-flex gap-1 pb-3">
+              <p>Desenvolvedor</p>
+              <p class="fw-bold">Backend</p>
             </div>
-
+            <div class="fs-5">
+              <p class="pb-2">
+                Sou um profissional da área da tecnologia que ama o que faz e
+                está em constante busca para aperfeiçoamento, atravez de
+                aprendizados no ambiente de trabalho e com cursos relacionados a
+                área.
+              </p>
+              <p>
+                Atualmente, sou estudante na Alura, onde estou focando para
+                melhorar meus conhecimentos e códigos em PhP com Laravel. E
+                também é onde aprenderei novas linguagens em breve.
+              </p>
+            </div>
           </div>
-          <img class="rounded-circle" src="./images/1698008872990.jpg" />
+          <img class="rounded-circle col-4" src="./images/1698008872990.jpg" />
         </div>
       </div>
       <div id="knolodge">
-        <h2 class="text-center">Conhecimentos</h2>
+        <h2 class="text-center pb-3">Conhecimentos</h2>
         <div class="d-flex justify-content-center gap-3">
-          <div class="text-center border p-2">
-            <p>Título da linguagem</p>
-            <p>Imagem</p>
-            <p>Nível de conhecimento</p>
+          <div class="text-center p-2">
+            <p>PhP</p>
+            <i class="fa-brands fa-php fa-2xl"></i>
+            <p>2 Anos</p>
           </div>
-          <div class="text-center border p-2">
-            <p>Título da linguagem</p>
-            <p>Imagem</p>
-            <p>Nível de conhecimento</p>
+          <div class="text-center p-2">
+            <p>Laravel</p>
+            <i class="fa-brands fa-laravel fa-2xl"></i>
+            <p>1 Ano</p>
           </div>
-          <div class="text-center border p-2">
-            <p>Título da linguagem</p>
-            <p>Imagem</p>
-            <p>Nível de conhecimento</p>
+          <div class="text-center p-2">
+            <p>MySQL</p>
+            <i class="fa-solid fa-database fa-2xl"></i>
+            <p>2 Anos</p>
           </div>
+          <div class="text-center p-2">
+            <p>HTML</p>
+            <i class="fa-brands fa-html5 fa-2xl"></i>
+            <p>2 Anos</p>
+          </div>
+          <div class="text-center p-2">
+            <p>CSS</p>
+            <i class="fa-brands fa-css3-alt fa-2xl"></i>
+            <p>1 Ano</p>
+          </div>
+          <div class="text-center p-2">
+            <p>JavaScript</p>
+            <i class="fa-brands fa-js fa-2xl"></i>
+            <p>1 Ano</p>
+          </div>
+          
         </div>
       </div>
       <div id="experience">
