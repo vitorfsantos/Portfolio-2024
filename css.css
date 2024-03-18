@@ -1,20 +1,31 @@
 body *{
   padding: 0;
   margin: 0;
-  font-family: "Fjord", sans-serif;
+  /* font-family: "Fjord", sans-serif; */
+  font-family: "Bai Jamjuree", sans-serif;
 }
+/* .kristi-regular {
+  font-family: "Kristi", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
 
 .menu-link {
-  padding: 10px 20px; /* Adiciona espaçamento interno aos links */
+  padding: 10px 20px;
   border-bottom: 1px solid transparent;
-  transition: border-bottom 0.3s; /* Transição suave de cor de fundo */
+  transition: border-bottom 0.3s;
 }
 
-/* Estilo quando o mouse está sobre os links */
 .menu-link:hover {
   border-bottom: 1px solid black;
 }
-/* p{
-  padding: 0;
-  margin: 0;
-} */
+
+.knolodge-card{
+  border: 1px solid transparent;
+  border-radius: 7px;
+  transition: border 0.3s; 
+  width: 100px;
+}
+.knolodge-card:hover {
+  border: 1px solid black;
+}
