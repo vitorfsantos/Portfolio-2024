@@ -52,9 +52,9 @@
             >Contato</a
           >
         </div>
-        <button class="btn btn-link text-dark">
+        <a href="./images/CV - Vitor Santos.pdf" title="Baixar Currículo" download="Vitor Santos - Curriculo" class="btn btn-link text-dark" target="_blank">
           <i class="fa-solid fa-download fa-xl"></i>
-        </button>
+        </a>
       </nav>
     </header>
     <main class="">
@@ -78,8 +78,8 @@
               </p>
               <p>
                 Atualmente, sou estudante na Alura, onde estou focando para
-                melhorar meus conhecimentos e códigos em PhP com Laravel. E
-                também é onde aprenderei novas linguagens em breve.
+                melhorar meus conhecimentos e códigos em PhP com Laravel e
+                também é onde estudo novas linguagens.
               </p>
             </div>
           </div>
@@ -102,6 +102,10 @@
             <i class="fa-solid fa-database fa-4x"></i>
           </div>
           <div class="text-center px-2 py-3 knolodge-card">
+            <p>Node</p>
+            <i class="fa-brands fa-node fa-4x"></i>
+          </div>
+          <div class="text-center px-2 py-3 knolodge-card">
             <p>HTML</p>
             <i class="fa-brands fa-html5 fa-4x"></i>
           </div>
@@ -118,7 +122,7 @@
       <div id="experience" class="pb-5">
         <h2 class="text-center">Experiência</h2>
         <div
-          class="d-flex gap-3 justify-content-center align-items-center border-bottom"
+          class="d-flex justify-content-center align-items-center border-bottom"
         >
           <div class="col-6">
             <div class="d-flex gap-1">
@@ -141,7 +145,7 @@
           </div>
         </div>
         <div
-          class="d-flex gap-3 justify-content-center align-items-center border-bottom"
+          class="d-flex justify-content-center align-items-center border-bottom"
         >
           <div class="col-6">
             <div class="d-flex gap-1">
@@ -153,7 +157,7 @@
               <p class="fw-bold">Intentus Digital</p>
             </div>
           </div>
-          <div class="text-center p-2 col-6">
+          <div class="col-6 text-center p-2 col-6">
             <p>07/2022 - 05/2023</p>
             <p>PhP - MySQL - CSS</p>
             <p>
@@ -163,8 +167,8 @@
           </div>
         </div>
       </div>
-      <div id="projects">
-        <h2 class="text-center">Projetos</h2>
+      <div id="projects" class="pb-5">
+        <h2 class="text-center pb-3">Projetos</h2>
         <div class="row d-flex justify-content-center gap-3">
           <div class="card mb-3 col-4">
             <img
@@ -176,9 +180,16 @@
             <div class="card-body">
               <h5 class="card-title">Gerenciamento de Estoque</h5>
               <p class="card-text">
-                Um painel para gerenciar um estoque, podendo adicionar, editar e excluir novos itens primários e secundários. Foi feito usando PhP puro, seguindo boas práticas de projeto e clean code, e utilizano MySQL como banco de dados.
+                Um painel para gerenciar um estoque, podendo adicionar, editar e
+                excluir novos itens primários e secundários. Foi feito usando
+                PhP puro, seguindo boas práticas de projeto e clean code, e
+                utilizano MySQL como banco de dados.
               </p>
-              <a href="https://github.com/vitorfsantos/gerenciamento-estoque" target="_blank" class="btn btn-link text-dark" >
+              <a
+                href="https://github.com/vitorfsantos/gerenciamento-estoque"
+                target="_blank"
+                class="btn btn-link text-dark float-right"
+              >
                 <i class="fa-solid fa-link fa-xl"></i>
               </a>
             </div>
@@ -187,7 +198,7 @@
             <img
               src="./images/construct.jpg"
               id="stockImage"
-              class="card-img-top img-fluid "
+              class="card-img-top img-fluid"
               alt="..."
             />
             <div class="card-body">
@@ -196,66 +207,37 @@
           </div>
         </div>
       </div>
-      <div id="contact">
+      <div id="contact" class="pb-5">
         <h2 class="text-center">Contato</h2>
-        <div class="d-flex justify-content-between">
-          <form>
-            <p>Form envio de email</p>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Label</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Label</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Label</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Label</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
-            </div>
-            <button>Enviar</button>
-          </form>
-          <div>
-            <div class="d-flex">
-              <p>Ícone Rede Social</p>
-              <p>Ícone Rede Social</p>
-              <p>Ícone Rede Social</p>
-            </div>
-            <p>Parágrafo para escrição</p>
-          </div>
+        <div class="d-flex justify-content-center gap-3">
+          <a
+            href="https://api.whatsapp.com/send?phone=5551998526066&text=Ol%C3%A1!%20Encontrei%20seu%20contato%20pelo%20seu%20portf%C3%B3lio!"
+            target="_blank"
+            class="btn btn-link text-dark"
+            ><i class="fa-brands fa-whatsapp fa-3x"></i
+          ></a>
+          <a
+            href="mailto:vitorxfelippe@gmail.com"
+            target="_blank"
+            class="btn btn-link text-dark"
+            ><i class="fa-solid fa-envelope fa-3x"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/vitorf-santos/"
+            target="_blank"
+            class="btn btn-link text-dark"
+            ><i class="fa-brands fa-linkedin fa-3x"></i
+          ></a>
         </div>
       </div>
     </main>
-    <footer>
-      <div class="d-flex justify-content-between">
-        <p>Texto ou icone</p>
-        <div>
-          <p>Desenvolvido em</p>
-          <p>Desenvolvido por</p>
+    <footer class="py-3">
+      <div class="d-flex flex-column align-items-center">
+        <p>Desenvolvido em 2024</p>
+
+        <div class="d-flex gap-1">
+          <p>por</p>
+          <p class="fw-bold">Vitor Santos</p>
         </div>
       </div>
     </footer>
